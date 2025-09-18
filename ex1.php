@@ -12,7 +12,7 @@ class Carro{
         $this->ano = $ano;
     }
 
-    public function aplicarDesconto(): string{
+    public function exibirInformacao(): string{
         return "O modelo do carro é {$this->modelo}, a marca dele é {$this->marca} e o ano dele é {$this->ano}.";
     }
 }
